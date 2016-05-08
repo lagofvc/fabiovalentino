@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['fabiovalentino.component.css']
 })
 export class FabiovalentinoAppComponent {
-  title1 = 'fabio.valentino';
+  title1 = 'f a b i o . v a l e n t i n o';
 }
