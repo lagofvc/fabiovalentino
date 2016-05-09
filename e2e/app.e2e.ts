@@ -9,6 +9,6 @@ describe('fabiovalentino App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('fabiovalentino works!');
+    expect(page.getParagraphText()).toContain('f a b i o . v a l e n t i n o');
   });
 });
