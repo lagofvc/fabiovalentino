@@ -1,32 +1,21 @@
 div {
 	font-family: monospace;
     font-weight: lighter;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
 
-    position:fixed !important;
-	position:absolute;
-	top:0;
-	right:0;
-	bottom:0;
+    /*  
+    position:fixed !important; 
+    position:absolute;
+    bottom:0;
 	left:0;
+    */
+    margin: 130px 160px;
+    background-color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 h1 {
 	text-align: center;
-}
-
-div.transbox {
-    margin: 130px 0px;
-    /*background-color: #323232;*/
-    background-color: black;
-    opacity: 0.5;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-
-    /* for rounded corners 
-    -moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px; /* future proofing 
-	-khtml-border-radius: 10px; /* for old Konqueror browsers */
-	*/
 }
