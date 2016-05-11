@@ -15,8 +15,8 @@ describe('App: Fabiovalentino', () => {
     expect(app).toBeTruthy();
   }));
 
-  it('should have as title \'fabiovalentino works!\'',
+  it('should have as title \'f a b i o . v a l e n t i n o\'',
       inject([FabiovalentinoAppComponent], (app: FabiovalentinoAppComponent) => {
-    expect(app.title).toEqual('fabiovalentino works!');
+    expect(app.title).toEqual('f a b i o . v a l e n t i n o');
   }));
 });
