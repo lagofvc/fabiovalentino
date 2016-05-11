@@ -4,6 +4,6 @@ export class FabiovalentinoPage {
   }
 
   getParagraphText() {
-    return element(by.css('fabiovalentino-app h1')).getText();
+    return element(by.css('fabiovalentino h1')).getText();
   }
 }
