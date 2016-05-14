@@ -10,5 +10,6 @@ import { TodoList } from './todo/todo-list';
   directives: [TodoInput, TodoList]
 })
 export class FabiovalentinoAppComponent {
-  title = 'f a b i o . v a l e n t i n o';
+
+  public title: string = 'f a b i o . v a l e n t i n o';
 }
