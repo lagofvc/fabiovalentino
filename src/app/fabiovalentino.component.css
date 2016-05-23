@@ -1,19 +1,25 @@
-div {
-	font-family: monospace;
+a:link{color:black; text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:visited{color:black;}
+
+.title {
+	font-family: Geneva;
     font-weight: lighter;
     font-size: 24px;
     color: white;
-
-    /*  
-    position:fixed !important; 
-    position:absolute;
-    bottom:0;
-	left:0;
-    */
-    margin: 130px 160px;
     background-color: black;
     opacity: 0.5;
     filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.menu {
+  font-family: "Andale Mono";
+  font-size: 22px;
+  text-align: center;
+  background-color: transparent;
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+
 }
 
 h1 {
