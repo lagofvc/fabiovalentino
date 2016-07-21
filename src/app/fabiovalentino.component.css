@@ -3,23 +3,37 @@
 #menuItem:hover{color: #00C79E; text-decoration: none;}
 
 .title {
-	font-family: Geneva;
-    font-weight: lighter;
-    font-size: 24px;
-    color: white;
-    background-color: black;
-    opacity: 0.7;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+  font-family: Geneva;
+  font-weight: lighter;
+  font-size: 24px;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: black;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+.resume {
+  opacity: 0.75;
+  filter: alpha(opacity60); /* For IE8 and earlier */
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
+.footer {
+  font-family: Geneva;
+  font-size: 10px;
+  color: white;
+  text-align: right;
+}
 .menuTable {
   font-family: Geneva;
   font-size: 26px;
   text-align: center;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.4;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 
 }
